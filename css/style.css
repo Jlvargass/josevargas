@@ -1,0 +1,148 @@
+html {
+    background-color:#A0F2C8;
+    }
+    
+/* Body: width, height, margin, font, background-color 
+   google fonts family= Noto Serif */
+body {
+   width:750px;
+    height:1000px;
+    font-family:'Noto Serif';
+    margin: auto;
+    background-color:#A0F2C8;
+    }
+
+/* Header: width, height */
+header {
+    width:750px;
+    height:250px;
+    }
+
+/* Class banner: width, height, float */
+.banner {
+    width:500px;
+    height:250px;
+    float:left;
+    }
+
+h1 {
+    color:#FF0000;
+    font-size:80px;
+    text-align: center;
+    }
+
+h2 {
+    color:#0000FF;
+    text-align: center;
+    }
+
+h2 strong span {
+    color:#008000;
+    font-size:30px;
+    }
+
+/*Id logo: width, height, float*/
+#logo {
+    width:250px;
+    height:250px;
+    float:left;
+    }
+
+img {
+    width: 250px;
+    height: 250px;
+    }
+
+/* Navigation */
+nav {
+    width:750px;
+    height:50px;
+    background-color:#0000FF;
+    }
+
+main {
+    width:750px;
+    height:650px;
+    background-color:#008000;
+    }
+
+#left {
+    width:150px;
+    height:650px;
+    float:left;
+    background-color:#800080;
+    }
+
+#left a:hover {
+    font-size: 150%;
+    color:#A0F2C8;
+    }
+
+#left > ul {
+    list-style: none;
+    width: 70%;
+    }
+
+#left > ul > li {
+    list-style: none;
+    width: 30%;
+    }
+
+#left > ul > li > ul{
+    list-style: none;
+    width: 20%;
+    position: absolute;
+    left: -5000px;
+    border-radius: 0% 0% 0% 0%;
+    }
+
+#left > ul > li:hover > ul {
+    display: block;
+    left: auto;
+    background-color:#800080;
+    width: auto;
+    }
+
+a {
+    color:#FFFFFF;
+    }
+
+article {
+    width:500px;
+    height:650px;
+    float: left;
+    background-color:#DAECF0;
+    }
+
+article a {
+    color:red;
+    }
+
+article a:hover {
+    font-size: 120%;
+    color:darkblue;
+    }
+
+article > img {
+    width:150px;
+    height:150px;
+    float: left;
+    }
+
+/* Class right: width, height, float, background-color */
+.right {
+    width:100px;
+    height:650px;
+    float:left;
+    background-color: #FF0000;
+    }
+
+video{
+    float: right;
+    }
+
+footer {
+    width:750px;
+    height:50px;
+    background-color:#FAF605;
+    }
